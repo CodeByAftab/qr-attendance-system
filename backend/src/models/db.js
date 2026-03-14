@@ -16,15 +16,3 @@ module.exports = {
   query: (text, params) => pool.query(text, params),
   pool,
 };
-```
-
-6. Scroll down → **Commit new file** → commit to `main`
-
----
-
-After this your repo will have:
-```
-backend/src/
-├── config/database.js   ← already updated (no harm leaving it)
-├── models/db.js         ← NEW file, this is what controllers use
-└── server.js            ← already updated ✅
